@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('background.jpg');
+}
+
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+img{
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  border: 2px solid rgb(232, 92, 92);
+}
+
+h1{
+  color: rgb(232, 92, 92);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+
+
